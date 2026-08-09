@@ -1,0 +1,20 @@
+{
+  "rows": [
+    [
+      { "display": "TEXT", "value": "A", "action": "CHARACTER", "weight": 1.0 },
+      { "display": "TEXT", "value": "Z", "action": "CHARACTER", "weight": 1.0 },
+      { "display": "TEXT", "value": "E", "action": "CHARACTER", "weight": 1.0 },
+      { "display": "TEXT", "value": "R", "action": "CHARACTER", "weight": 1.0 }
+    ],
+    [
+      { "display": "SVG", "value": "backspace.svg", "action": "BACKSPACE", "weight": 1.5 },
+      { "display": "TEXT", "value": "W", "action": "CHARACTER", "weight": 1.0 },
+      { "display": "TEXT", "value": "X", "action": "CHARACTER", "weight": 1.0 }
+    ],
+    [
+      { "display": "SVG", "value": "globe.svg", "action": "NEXT_KEYBOARD", "weight": 1.5 },
+      { "display": "TEXT", "value": " ", "action": "SPACE", "weight": 5.0 },
+      { "display": "TEXT", "value": "\n", "action": "ENTER", "weight": 1.5 }
+    ]
+  ]
+}
