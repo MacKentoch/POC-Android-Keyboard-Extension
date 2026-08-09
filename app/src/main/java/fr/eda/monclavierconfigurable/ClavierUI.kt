@@ -40,7 +40,7 @@ fun Touche(
                 DisplayType.SVG -> {
                     val painter = rememberAsyncImagePainter(
                         model = ImageRequest.Builder(LocalContext.current)
-                            .data("file:///android_asset/icons/${keyModel.value}") // Chemin vers notre SVG
+                            .data("file:///android_asset/icons/${keyModel.value}")
                             .decoderFactory(SvgDecoder.Factory())
                             .build()
                     )
@@ -62,7 +62,7 @@ fun ClavierView(
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .height(240.dp)
+            .height(260.dp)
             .background(MaterialTheme.colorScheme.background)
             .padding(4.dp)
     ) {
